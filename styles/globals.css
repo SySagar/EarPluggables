@@ -28,6 +28,8 @@ a {
 .navbar-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
   margin: 6px 18px;
   position: relative;
 }
@@ -227,7 +229,7 @@ span.text-red {
   background-color: white;
   color: red;
   border: none;
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
@@ -749,3 +751,38 @@ span.text-red {
     margin: auto;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .logo{
+    display: none;
+  }
+
+  .search-bar{
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+
+}
+
+@media screen and (max-width: 1150px) {
+  .footer-banner-container{
+      padding: 25px;
+  }
+.banner-desc button{
+
+}
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  .footer-banner-container{
+      padding: 50px;
+  }
+
+  .footer-banner-image{
+  width:500px;
+  height: 500px;
+  }
+
+}
+
