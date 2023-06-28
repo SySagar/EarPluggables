@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Alvi Hasan <livealvi@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
@@ -29,7 +28,6 @@
   },
   "devDependencies": {},
   "repository": {
-    "type": "git",
-    "url": "https://github.com/livealvi/Ecommerce--Full-Stack--NEXT-App.git"
+    "type": "git"
   }
 }
